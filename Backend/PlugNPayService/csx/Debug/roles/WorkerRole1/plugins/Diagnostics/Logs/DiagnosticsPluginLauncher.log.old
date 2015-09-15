@@ -1,0 +1,14 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:47] Emulator config file set to C:\Users\aidasa\Desktop\SkyDrive\Projects\PlugNPay\Backend\PlugNPayService\csx\Debug\roles\WorkerRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:47] DiagnosticsStoreRootPath set to: C:\Users\aidasa\AppData\Local\dftmp\Resources\c78a5dcf-4a05-4a30-84d6-a935a60d6963
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:47] Loading config file: C:\Users\aidasa\Desktop\SkyDrive\Projects\PlugNPay\Backend\PlugNPayService\csx\Debug\roles\WorkerRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:47] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:47] Emulator config file set to C:\Users\aidasa\Desktop\SkyDrive\Projects\PlugNPay\Backend\PlugNPayService\csx\Debug\roles\WorkerRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:47] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:47] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:47] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:47] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:48] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:48] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:48] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:48] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [2015-09-15 07:59:48] Resetting DiagnosticPlugin

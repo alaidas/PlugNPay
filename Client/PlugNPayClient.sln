@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlugNPayClient", "PlugNPay\PlugNPayClient.csproj", "{41B8DDEF-564B-41B9-AA53-837A30E145BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{AD595BAA-9C4A-433B-ACAD-1FAF9BF7172A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpirijaPrinter", "EmpirijaPrinter\EmpirijaPrinter.csproj", "{98DE28E3-8C34-4EFD-88E9-B418EDF9ED61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlugNPayClient.Controller", "Controller\PlugNPayClient.Controller.csproj", "{CB1FFA82-9E66-4293-A3D4-23E42B362A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlugNPay.Utils", "PlugNPlay.Utils\PlugNPay.Utils.csproj", "{56F91A44-42CD-48F9-88A6-9E2756C85ADD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41B8DDEF-564B-41B9-AA53-837A30E145BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B8DDEF-564B-41B9-AA53-837A30E145BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B8DDEF-564B-41B9-AA53-837A30E145BE}.Debug|x86.ActiveCfg = Debug|x86
+		{41B8DDEF-564B-41B9-AA53-837A30E145BE}.Debug|x86.Build.0 = Debug|x86
+		{41B8DDEF-564B-41B9-AA53-837A30E145BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B8DDEF-564B-41B9-AA53-837A30E145BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B8DDEF-564B-41B9-AA53-837A30E145BE}.Release|x86.ActiveCfg = Release|x86
+		{41B8DDEF-564B-41B9-AA53-837A30E145BE}.Release|x86.Build.0 = Release|x86
+		{98DE28E3-8C34-4EFD-88E9-B418EDF9ED61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DE28E3-8C34-4EFD-88E9-B418EDF9ED61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DE28E3-8C34-4EFD-88E9-B418EDF9ED61}.Debug|x86.ActiveCfg = Debug|x86
+		{98DE28E3-8C34-4EFD-88E9-B418EDF9ED61}.Debug|x86.Build.0 = Debug|x86
+		{98DE28E3-8C34-4EFD-88E9-B418EDF9ED61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DE28E3-8C34-4EFD-88E9-B418EDF9ED61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DE28E3-8C34-4EFD-88E9-B418EDF9ED61}.Release|x86.ActiveCfg = Release|x86
+		{98DE28E3-8C34-4EFD-88E9-B418EDF9ED61}.Release|x86.Build.0 = Release|x86
+		{CB1FFA82-9E66-4293-A3D4-23E42B362A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB1FFA82-9E66-4293-A3D4-23E42B362A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB1FFA82-9E66-4293-A3D4-23E42B362A04}.Debug|x86.ActiveCfg = Debug|x86
+		{CB1FFA82-9E66-4293-A3D4-23E42B362A04}.Debug|x86.Build.0 = Debug|x86
+		{CB1FFA82-9E66-4293-A3D4-23E42B362A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB1FFA82-9E66-4293-A3D4-23E42B362A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB1FFA82-9E66-4293-A3D4-23E42B362A04}.Release|x86.ActiveCfg = Release|x86
+		{CB1FFA82-9E66-4293-A3D4-23E42B362A04}.Release|x86.Build.0 = Release|x86
+		{56F91A44-42CD-48F9-88A6-9E2756C85ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F91A44-42CD-48F9-88A6-9E2756C85ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F91A44-42CD-48F9-88A6-9E2756C85ADD}.Debug|x86.ActiveCfg = Debug|x86
+		{56F91A44-42CD-48F9-88A6-9E2756C85ADD}.Debug|x86.Build.0 = Debug|x86
+		{56F91A44-42CD-48F9-88A6-9E2756C85ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F91A44-42CD-48F9-88A6-9E2756C85ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F91A44-42CD-48F9-88A6-9E2756C85ADD}.Release|x86.ActiveCfg = Release|x86
+		{56F91A44-42CD-48F9-88A6-9E2756C85ADD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98DE28E3-8C34-4EFD-88E9-B418EDF9ED61} = {AD595BAA-9C4A-433B-ACAD-1FAF9BF7172A}
+	EndGlobalSection
+EndGlobal

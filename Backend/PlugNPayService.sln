@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "PlugNPayService", "PlugNPayService\PlugNPayService.ccproj", "{6F6FF0B4-C139-450F-A8B9-A638B972CD88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole1\WorkerRole1.csproj", "{B7B61785-51E2-4A27-877D-85F20E6C5D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlugNPayHub", "PlugNPayHub\PlugNPayHub.csproj", "{4C656BF6-8CF7-4551-9B8F-1BC7C6F0C39E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureCloud", "AzureCloud", "{13C1F32A-259E-48ED-9330-300102D23426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F6FF0B4-C139-450F-A8B9-A638B972CD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6FF0B4-C139-450F-A8B9-A638B972CD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6FF0B4-C139-450F-A8B9-A638B972CD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6FF0B4-C139-450F-A8B9-A638B972CD88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B61785-51E2-4A27-877D-85F20E6C5D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B61785-51E2-4A27-877D-85F20E6C5D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B61785-51E2-4A27-877D-85F20E6C5D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B61785-51E2-4A27-877D-85F20E6C5D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C656BF6-8CF7-4551-9B8F-1BC7C6F0C39E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C656BF6-8CF7-4551-9B8F-1BC7C6F0C39E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C656BF6-8CF7-4551-9B8F-1BC7C6F0C39E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C656BF6-8CF7-4551-9B8F-1BC7C6F0C39E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F6FF0B4-C139-450F-A8B9-A638B972CD88} = {13C1F32A-259E-48ED-9330-300102D23426}
+		{B7B61785-51E2-4A27-877D-85F20E6C5D74} = {13C1F32A-259E-48ED-9330-300102D23426}
+	EndGlobalSection
+EndGlobal

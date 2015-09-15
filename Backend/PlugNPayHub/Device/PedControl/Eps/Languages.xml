@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<langstrings>
+  <e k="insert_card" v="Waiting for a card">
+    <EE v="Ootan kaarti" />
+    <LT v="Laukiama kortelės" />
+    <LV v="Gaidam karti" />
+    <RU v="Ожидание карты" />
+  </e>
+  <e k="pinpad_welcome" v="Welcome" >
+    <LT v="Sveiki" />
+  </e>
+  <e k="cancelled" v="Transactions is cancelled">
+    <LT v="Operacija atšaukta" />
+  </e>
+  <e k="reversed" v="Transactions is cancelled">
+    <LT v="Operacija atšaukta" />
+  </e>
+  <e k="in_progress" v="Transaction is in progress">
+    <LT v="Operacija jau vyksta" />
+  </e>
+  <e k="card_timeout" v="Timeout while waiting for card">
+    <LT v="Baigėsi kortelės nuskaitymui skirtas laikas" />
+  </e>
+  <e k="prompt_timeout" v="Timeout while waiting for action">
+    <LT v="Baigėsi įvedimui skirtas laikas" />
+  </e>
+  <e k="no_response" v="No response">
+    <LT v="Negautas atsakymas" />
+  </e>
+  <e k="docnum_error" v="Transaction id is not unique">
+    <LT v="Dokumento numerio klaida" />
+  </e>
+  <e k="amount_error" v="Incorrect amount">
+    <LT v="Neleistina suma" />
+  </e>
+  <e k="cash_error" v="Incorrect cash amount">
+    <LT v="Neleistina grynųjų suma" />
+  </e>
+  <e k="currency_error" v="Invalid currency code">
+    <LT v="Neleistinas valiutos kodas" />
+  </e>
+  <e k="language_error" v="Invalid language code">
+    <LT v="Neleistinas kalbos kodas" />
+  </e>
+  <e k="no_trans_error" v="Transaction is not found">
+    <LT v="Operacija nerasta" />
+  </e>
+  <e k="cannot_confirm_trans_error" v="Transaction cannot be confirmed">
+    <LT v="Operacija negali būti patvirtinta" />
+  </e>
+  <e k="cannot_reverse_trans_error" v="Transaction cannot be reversed">
+    <LT v="Operacija negali būti atšaukta" />
+  </e>
+  <e k="cannot_confirm_partial_trans_error" v="Transaction cannot be adjusted">
+    <LT v="Operacija negali būti pakoreguota" />
+  </e>
+  <e k="cannot_confirm_invalid_amount_trans_error" v="Transaction cannot be confirmed with invalid amount">
+    <LT v="Operacija negali būti patvirtinta su neteisinga suma" />
+  </e>
+</langstrings>

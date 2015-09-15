@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="PlugNPayService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2015-04.2.6">
+  <WorkerRole name="WorkerRole1" vmsize="Small">
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+    </ConfigurationSettings>
+    <Imports>
+      <Import moduleName="RemoteAccess" />
+      <Import moduleName="RemoteForwarder" />
+    </Imports>
+    <Endpoints>
+      <InputEndpoint name="AsyncPosPedHub" protocol="tcp" port="2211" />
+      <InputEndpoint name="PosController" protocol="http" port="2222" />
+      <InputEndpoint name="FiscalPrinterHub" protocol="tcp" port="2224" />
+    </Endpoints>
+  </WorkerRole>
+</ServiceDefinition>

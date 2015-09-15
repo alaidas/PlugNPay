@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Basket";
+}
+
+<div class="panel panel-primary no-border">
+    <div class="panel-heading" style="height: 60px;">
+        <div style="float: left;">
+            Vardenis Pavardenis
+            <br />
+            2015-08-31 16:47
+        </div>
+        <div style="float: right; padding-top: 10px;">Atsijungti</div>
+    </div>
+
+    <div class="panel-body basket-div">
+        <table class="basket-table">
+            <thead>
+                <tr>
+                    <th>Pavadinimas</th>
+                    <th>Kiekis</th>
+                    <th>Vnt. kaina</th>
+                    <th>Viso</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Išorinis diskas SAMSUNG</td>
+                    <td>- 1 +</td>
+                    <td>52,39</td>
+                    <td>52,39</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr style="margin: 0; border: 1px solid #aab9bc;" />
+
+    <div class="panel-body">
+        <table class="basket-totals-table">
+            <tr>
+                <td>Suma be PVM.</td>
+                <td>41,39</td>
+            </tr>
+            <tr>
+                <td>PVM.</td>
+                <td>11,00</td>
+            </tr>
+            <tr>
+                <td>Viso</td>
+                <td>52,39</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<table class="buttons-table">
+    <tr>
+        <td>
+            <button type="button" class="btn btn-danger btn-3x2">Pašalinti prekę</button>
+            <button type="button" class="btn btn-default btn-3x2">Mokėti grynais</button>
+        </td>
+        <td rowspan="2" style="text-align: right;">
+            <button type="button" class="btn btn-success btn-2x3">Baigti kvitą</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <button type="button" class="btn btn-danger btn-3x2">Atšaukti kvitą</button>
+            <button type="button" class="btn btn-default btn-3x2">Mokėti kortele</button>
+        </td>
+    </tr>
+
+</table>
+

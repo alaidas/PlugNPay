@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="PlugNPayService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WorkerRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=portalvhds264y9bh18y8x1;AccountKey=wv6lCDzCql3Z8tSd+7J76jOdoZ1DWN8g5Sm7HvCAMJOfG19bwT97GdfYqSOe1vimPy4Es0rOyW9SSt1TVAXB5Q==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="aidas" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEHIDnsOTHCGFSFuRCPldqmowDQYJKoZIhvcNAQEBBQAEggEAnBzKMAhRa4QIIjqjQePdhY7SZD6kcutgDecwpP/v/GAsW+Cja7hVylGULK4dCi+ZYvWkEQuJ0B4Rf8lq00x/2PJOBSnencl+gqXiewI42FhVORTofMkVGBIEE38CRT5dtctyXuHXSAOMNV/IrQ+wlKTtBufoP+XFPKWSiqA99inRA/R4zClrd2eVW3TICg4sPgxVXboA6H3bGJuy3busCttamGxDWqIwwNbjM99Tto16QQ+oxRaGfj7OcRsZnA52+xVP6u7p2u/3lWwV1fmw5zfoDdciKOBGdj5F+BBxe6ARectTH1wDIhZpVUJpHfxnGLC6pCjY/oRw9C9KwCxh+TAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECHnnpN3ti1LJgBDjeYw7ci1kMkbFCcfL9oGM" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2016-09-10T23:59:59.0000000+03:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="20482F468BC3A77A7DA61E4686AEDA2D5D31B977" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

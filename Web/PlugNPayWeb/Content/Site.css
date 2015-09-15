@@ -1,0 +1,188 @@
+﻿body {
+    background-color: #aab9bc;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.window {
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+    .window .basket {
+        float: left;
+        width: 450px;
+        margin-right: 10px;
+    }
+
+    .window .control-panel {
+        float: left;
+        width: 450px;
+    }
+
+
+/*Basket section*/
+
+.no-border {
+    border: none;
+}
+
+.basket-div {
+    height: 420px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.basket-table {
+    width: 420px;
+}
+
+    .basket-table thead {
+        color: #838383;
+        font-weight: bold;
+    }
+
+        .basket-table thead th {
+            padding-top: 3px;
+            padding-bottom: 13px;
+            text-align: center;
+        }
+
+            .basket-table thead th:first-child {
+                text-align: left;
+            }
+
+    .basket-table tbody td {
+        color: #838383;
+        font-weight: normal;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-top: 1px solid #f2f4f3;
+        border-bottom: 1px solid #f2f4f3;
+        text-align: center;
+    }
+
+        .basket-table tbody td:first-child {
+            text-align: left;
+        }
+
+.basket-totals-table {
+    width: 420px;
+}
+
+    .basket-totals-table td {
+        color: #838383;
+        font-weight: normal;
+        text-align: right;
+    }
+
+        .basket-totals-table td:first-child {
+            text-align: left;
+        }
+
+    .basket-totals-table tr:last-child td {
+        color: #494949;
+        font-weight: bold;
+        padding-top: 15px;
+    }
+
+.buttons-table {
+    width: 450px;
+    height: 145px;
+}
+
+.btn-3x2 {
+    width: 160px;
+    height: 70px;
+    margin-right: 4px;
+    margin-top: 8px;
+}
+
+.btn-2x3 {
+    width: 112px;
+    height: 149px;
+    margin-top: 8px;
+}
+
+/*Control panel section */
+
+.control-panel-active-menu {
+    margin-top: 2px;
+    height: 692px;
+    background-color: #f5f7f4;
+}
+
+/**     Products **/
+
+.full-line {
+    max-width: 100%;
+    width: 100%;
+}
+
+.products-list-div {
+    margin-top: 10px;
+    width: 100%;
+    height: 490px;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.products-buttons-table {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn-3x1 {
+    width: 134px;
+    height: 50px;
+    margin-right: 4px;
+    margin-top: 8px;
+}
+
+.products-table {
+    width: 100%;
+    white-space: nowrap;
+    table-layout: fixed;
+    color: #838383;
+}
+
+    .products-table th, .products-table td {
+        border-bottom: 1px solid #d4d4d4;
+    }
+
+    .products-table thead th:first-child {
+        text-align: left;
+    }
+
+    .products-table thead th {
+        text-align: center;
+    }
+
+    .products-table tbody td:first-child {
+        text-align: left;
+    }
+
+    .products-table tbody td {
+        text-align: center;
+    }
+
+    .products-table tbody td {
+        white-space: nowrap;
+        overflow: hidden;
+        -moz-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    }
